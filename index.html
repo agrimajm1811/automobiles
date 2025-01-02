@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline of Automobiles</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #2a3d66;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    padding: 20px;
+  }
+  .timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  .timeline-item {
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .timeline-item:hover {
+    transform: scale(1.1);
+  }
+  .timeline-item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .timeline-item h3 {
+    margin-top: 10px;
+  }
+  .timeline-description {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  .zoomed-image {
+    width: 80%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  .zoomed-image:hover {
+    transform: scale(1.5);
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Timeline of Automobiles</h1>
+    <p>Discover the evolution of transportation from bullock carts to driverless cars.</p>
+  </header>
+
+  <div class="container">
+    <section class="timeline-description">
+      <h2>The Importance of Automobiles</h2>
+      <p>Automobiles have significantly changed human mobility, shaping the modern world and economies. From early inventions like the bullock cart to the groundbreaking driverless vehicles, automobiles have revolutionized transportation and how people live, work, and interact.</p>
+    </section>
+
+    <section class="timeline">
+      <!-- Bullock Cart -->
+      <div class="timeline-item">
+        <a href="bullockCart.html">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Bullock_cart_in_Punjab,_India.jpg" alt="Bullock Cart">
+          <h3>Bullock Cart</h3>
+        </a>
+      </div>
+      <!-- Early Automobiles -->
+      <div class="timeline-item">
+        <a href="earlyAutomobile.html">
+          <img src="https://www.supercars.net/blog/wp-content/uploads/2015/03/St._Louis_Gasoline_Motor_Company_automobile-927x1024.jpg" alt="Early Automobile">
+          <h3>Early Automobiles</h3>
+        </a>
+      </div>
+      <!-- Motorcar -->
+      <div class="timeline-item">
+        <a href="motorcar.html">
+          <img src="https://cdn05.carsforsale.com/081cc37fc8370e0dd38adb74897906e7/480x360/2013-dodge-challenger-rallye-redline-appearance-group-2dr-coupe.jpg" alt="Motorcar">
+          <h3>Motorcar</h3>
+        </a>
+      </div>
+      <!-- Electric Cars -->
+      <div class="timeline-item">
+        <a href="electricCar.html">
+          <img src="https://media.istockphoto.com/id/1473102763/photo/electric-car-charge-stations.jpg?s=612x612&w=0&k=20&c=Ft-lT51hV7iqFceHpGCqeUcv84bwPc__Hi7P7JWm6d4=" alt="Electric Car">
+          <h3>Electric Cars</h3>
+        </a>
+      </div>
+      <!-- Driverless Car -->
+      <div class="timeline-item">
+        <a href="driverlessCar.html">
+          <img src="https://media.gettyimages.com/id/1415090444/photo/automatic-driving-car-on-highway.jpg?s=612x612&w=0&k=20&c=nTDEL7Tgl_x7IR15AKqUyUjw_1TfxQQIZYJjZ318td8=" alt="Driverless Car">
+          <h3>Driverless Car</h3>
+        </a>
+      </div>
+    </section>
+    <section class="qr-code">
+        <h2>Scan the QR Code to Access this Website</h2>
+        <img src="images/qr-code.png" alt="QR Code">
+    </section>
+  </div>
+</body>
+</html>
